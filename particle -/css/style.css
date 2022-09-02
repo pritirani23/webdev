@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100%;
+    height:100vh;
+    background:red;
+}
+
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper .meanu h1{
+    color:#fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+ul .close{
+    display: none;
+}
+
+
+.wrapper .nav ul{
+    color:#fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper .nav ul  li{
+   list-style: none;
+   margin: 0 15px;
+
+}
+
+.wrapper .bars{
+    color:#fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:940px){
+   .wrapper .nav ul{
+       position: fixed;
+       top:0%;
+       left:0%;
+       background: #111;
+       height:100vh;
+       width:100%;
+       display: block;
+       text-align: center;
+       display: none;
+   }
+
+   .wrapper .nav ul li{
+       margin: 40px 0;
+       display: block;
+   }
+
+   header .bars{
+    display: block;
+    
+ }
+ 
+ .active{
+     display:block;
+ }
+ 
+ ul .close{
+    display: none;
+}
+
+  .wrapper .bars{
+    color:#fff;
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    right:200px;
+    margin: 30px;
+    
+}
+
+.wrapper .meanu h1{
+    color:#fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+}
+
+
+
+
+
+
